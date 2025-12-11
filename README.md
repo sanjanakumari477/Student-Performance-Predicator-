@@ -36,23 +36,6 @@ Includes attributes like:
 
 ---
 
-## 📁 Project Structure
-Student-Performance-Predictor/
-│── data/
-│ └── student_data.csv
-│── notebooks/
-│ └── EDA_and_Modeling.ipynb
-│── src/
-│ ├── preprocess.py
-│ ├── train_model.py
-│ └── predict.py
-│── models/
-│ └── best_model.pkl
-│── README.md
-│── requirements.txt
-
-
-
 ## 📈 Sample Insights
 - 📘 Study time strongly affects final performance  
 - 📝 Previous scores show high impact  
