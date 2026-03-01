@@ -6,7 +6,7 @@ The model helps identify key factors influencing academic outcomes and supports 
 ---
 
 ## 🖥️ Application Interface
-![Student Performance Predictor UI](assets/student_performance_ui.png)
+![Student Performance Predictor UI](https://github.com/sanjanakumari477/Student-Performance-Predicator-/blob/main/Screenshot_of_Project.png)
 
 ---
 
@@ -47,14 +47,11 @@ The dataset includes attributes such as:
 - 📝 Previous exam scores significantly influence predictions  
 - 🌲 Random Forest model achieved the best performance  
 
-*(Update insights based on your final results.)*
-
 ---
 
 ## ▶️ Installation & Usage
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/Student-Performance-Predictor.git
-cd Student-Performance-Predictor
-
+git clone https://github.com/sanjanakumari477/Student-Performance-Predicator-.git
+cd Student-Performance-Predicator-
