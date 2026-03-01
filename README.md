@@ -1,20 +1,26 @@
 # 🎓 Student Performance Predictor
 
-A machine learning project that analyzes student data and predicts academic performance based on study habits, test scores, and demographic factors. The model helps identify important factors that influence academic outcomes and supports data-driven decision-making for students and educators.
+A machine learning project that analyzes student data and predicts academic performance based on study habits, test scores, and demographic factors.  
+The model helps identify key factors influencing academic outcomes and supports data-driven decision-making for students and educators.
+
+---
+
+## 🖥️ Application Interface
+![Student Performance Predictor UI](assets/student_performance_ui.png)
 
 ---
 
 ## 📌 Features
 - 🔍 Exploratory Data Analysis (EDA) with visual insights  
-- 🤖 Multiple ML algorithms (Linear Regression, Random Forest, Decision Tree etc.)  
+- 🤖 Multiple ML algorithms (Linear Regression, Random Forest, Decision Tree, etc.)  
 - 📊 Model evaluation (Accuracy, RMSE, R² Score)  
 - 🧠 Identification of key factors affecting student performance  
-- 📈 Predicts academic outcomes using trained model  
+- 📈 Academic performance prediction using trained ML models  
 
 ---
 
 ## 🗂️ Dataset
-Includes attributes like:
+The dataset includes attributes such as:
 - Study hours  
 - Previous exam/test scores  
 - Attendance  
@@ -23,7 +29,7 @@ Includes attributes like:
 - Demographic details  
 - Learning habits  
 
-*(Replace with actual dataset or link.)*
+*(Replace with actual dataset or provide dataset link.)*
 
 ---
 
@@ -37,49 +43,18 @@ Includes attributes like:
 ---
 
 ## 📈 Sample Insights
-- 📘 Study time strongly affects final performance  
-- 📝 Previous scores show high impact  
-- 🌲 Random Forest gave the best performance in testing  
+- 📘 Study hours have a strong impact on final performance  
+- 📝 Previous exam scores significantly influence predictions  
+- 🌲 Random Forest model achieved the best performance  
 
-*(Update this after training your model.)*
+*(Update insights based on your final results.)*
 
 ---
 
 ## ▶️ Installation & Usage
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Student-Performance-Predictor.git
 cd Student-Performance-Predictor
-2️⃣ Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
-3️⃣ Run Jupyter Notebook
-bash
-Copy code
-jupyter notebook
-4️⃣ Run prediction script
-bash
-Copy code
-python src/predict.py
-🖥️ Example Prediction Code
-python
-Copy code
-input_data = {
-    "study_hours": 4,
-    "previous_score": 82,
-    "parent_education": 3,
-    "extra_classes": 1
-}
-
-model.predict(input_data)
-🌟 Future Improvements
-Web deployment using Flask or FastAPI
-
-Streamlit dashboard
-
-Automated hyperparameter tuning
-
-Deep learning model integration
 
